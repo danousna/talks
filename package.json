@@ -1,0 +1,15 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:danousna/talks.git",
+  "author": "Natan Danous <natan.danous@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "reveal-md": "^4.1.0"
+  },
+  "scripts": {
+    "start": "reveal-md ./src/psycle-tech/index.md -w"
+  }
+}
