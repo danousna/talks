@@ -270,6 +270,8 @@ Horizon 2021.
 
 ---
 
+**Fin.**
+
 *Merci pour votre attention.*
 
 **Questions ?**
