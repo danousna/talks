@@ -10,6 +10,7 @@
     "reveal-md": "^4.1.0"
   },
   "scripts": {
-    "start": "reveal-md ./src/psycle-tech/index.md -w"
+    "start": "reveal-md ./src/psycle-tech/index.md -w",
+    "build": "reveal-md ./src/psycle-tech/index.md --static docs/"
   }
 }
