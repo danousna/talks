@@ -11,9 +11,12 @@ revealOptions:
 
 **Sommaire**
 
-1. Présentation perso.
-2. Psycle, c'est quoi ?
-3. La tech chez Psycle.
+1. Introduction.
+2. Présentation de l'entreprise.
+3. La Tech chez Psycle.
+---
+
+**1. Introduction**
 
 ---
 
@@ -26,51 +29,22 @@ CTO chez [Psycle Research](https://psycle.io)
 **Parcours**
 
 * UTC, ingénieur informatique (spé. FDD).
-* MeilleursAgents : 6 mois.
+* Dev web chez MeilleursAgents : 2018.
 * Psycle Research : depuis juillet 2018.
 
 ---
 
-**Mon rôle chez Psycle**
-
-* Architecture & conception systèmes.
-* Réalisation des projets.
-* Formation technique.
+**2. Présentation de l'entreprise**
 
 ---
 
-**(et aussi)**
-
-* Planification, suivi et gestion projets.
-* Relation clients.
-* Recrutements tech.
-
-
----
-
-**1. Psycle Research**
-
----
-
-**Infos principales**
-
-* Création en fin 2017.
-* 7 personnes (fin 2020).
-* Compiègne, Hauts-de-France.
-
-*100% indépendants*
+**Le contrôle qualité automatisé pour l'industrie.**
 
 ---
 
 **Constat de départ**
 
-L'apprentissage machine possède énormément d'applications, notamment dans le secteur industriel.
-
----
-
-**Constat de départ**
-
-Des performances quasi magiques dans la reconnaissance visuelle.
+Le deep learning atteint ou dépasse des performances humaines sur certaines tâches de vision.
 
 ---
 
@@ -80,137 +54,71 @@ Ces technologies demandent des connaissances techniques spécifiques et avancée
 
 ---
 
+**Problème**
+
+Les déploiements logiciels et physiques de ces technologies sont difficiles.
+
+---
+
 **Conclusion**
 
-* Peu d'entreprises peuvent profiter de ces technologies. 
-* Les industriels encore moins : pas d'intérêt direct perçu par eux.
+Peu d'entreprises industrielle peuvent ou choissisent de profiter de ces avancées. 
 
 ---
 
 **En résumé**
 
-> L'IA pour les grands et (aussi) les petits industriels.
-
----
-
-**En résumé**
-
-Faire profiter tout type d'industriels des avancées dans le domaine de l'apprentissage machine.
+Notre objectif est de rendre accessible à tout industriel un outil de contrôle de la qualité par l'IA.
 
 ---
 
 **Quelques clients**
 
-* Bic.
-* Smartwood.
-* Ascodero Productique.
-* AD-LAB.
+Bic, Babynov, Viskase, Uranie, Saverglass, Citel.
+
+---
+
+**Quelques chiffres**
+
+* Création en fin 2017 par Baptiste Amato.
+* 11 personnes (fin 2021).
+* Compiègne.
+
+*100% indépendants*
+
+---
+
+**Concrètement : déploiement en production**
+
+* Nano-pc.
+* Caméra.
+* Lumière.
 * ...
 
 ---
 
-**Concrètement ?**
-
-Offre *conseil* et *technique*.
+**Concrètement : illustration**
 
 ---
 
-**Offre conseil**
+**Concrètement : gestion de la qualité**
 
-*Identifier*, *qualifier* et *cadrer* des problématiques industriels.
-
-- *Identifier* : trouver les points douloureux.
-- *Qualifier* : estimer faisabilité (technique et financière).
-- *Cadrer* : fixer des objectifs clairs, structurer process existants.
-
----
-
-**Offre conseil : exemple**
-
-Contrôle de défauts sur des lignes de production de pots de yahourt.
+* Collecte de données et annotation.
+* Entrainement.
+* Gestion machines.
+* Statistiques.
 
 ---
 
-**Offre conseil : exemple**
-
-- *Identifier* : Très grande série. Un défaut sur un pot = arrêt de la production pendant plusieurs heures.
-
----
-
-**Offre conseil : exemple**
-
-- *Qualifier* : Estimation du projet, besoins techniques (données => difficile, intégration).
-
----
-
-**Offre conseil : exemple**
-
-- *Cadrer* : Typologie de défauts, capture des données.
-
----
-
-**Offre technique**
-
-* Preuve de concept (PoC).
-* Intégration en production.
-* Plateforme de suivi.
-
----
-
-**Offre technique : PoC**
-
-* Sur un projet spécifique
-* Mise en place très rapide (1 semaine à 1 mois)
-* Collecte initiale de données via micro-ordinateur & caméra
-
----
-
-**Offre technique : PoC**
-
-Objectif : évaluation rapide de la solution Psycle.
-
----
-
-**Offre technique : intégration**
-
-* Plusieurs machines, plusieurs projets (analyses).
-* Communication avec la machine de production (changements d'état, action directe).
-* Amélioration des performances.
-
----
-
-**Offre technique : intégration**
-
-Objectif : mise en production.
-
----
-
-**Offre technique : plateforme de suivi**
-
-Disponible en ligne à toutes les étapes du projet, dès le PoC. 
-
----
-
-**Offre technique : plateforme de suivi**
-
-Permet la gestion complète de la solution Psycle :
-
-* Données collectées.
-* Annotation.
-* Parc machine.
-* Analyses.
-
----
-
-**2. La Tech chez Psycle**
+**3. La Tech chez Psycle**
 
 ---
 
 **Besoins**
 
-1. Data Science, ML.
-2. Edge computing, intégration algorithmes.
-3. **Développement applicatif** : frontend, backend, infrastructure.
+* Science des données.
+* Développement embarqué.
+* Développement web.
 
 ---
 
@@ -218,14 +126,20 @@ Permet la gestion complète de la solution Psycle :
 
 * Gestion de projets : *Jira*.
 * VCS : *Git* + *Github*.
-* CI : *Github Actions*.
+* CI : *Jenkins + Github Actions*.
 
 ---
 
 **Notre stack : infrastructure**
 
-* Applicatif : cloud avec *AWS*.
-* Edge computing : *Nvidia* chez le client.
+* Serveurs, BDD : *AWS*.
+* Systèmes embarqués : *Nvidia Jetson*.
+
+---
+
+**Notre stack : infrastructure**
+
+Automatisation via *Terraform* + *Packer* + *Ansible*.
 
 ---
 
@@ -241,9 +155,8 @@ Permet la gestion complète de la solution Psycle :
 
 SPA : Single Page Application
 
-* JS : *ReactJS*, *React-Router*.
-* CSS : *SCSS* + *Bootstrap*.
-* Bundler : *ParcelJS* (bye bye Webpack).
+* JS : *Typescript*, *NextJS*, *ReactJS*.
+* CSS : *TailwindCSS*.
 
 ---
 
@@ -251,27 +164,8 @@ SPA : Single Page Application
 
 * Tests *unitaires* coté back-end avec *PyTest*.
 * Tests *E2E* avec *Cypress*.
-* Revues de code sur Github.
+* Revues de code (PR) sur Github.
 
 ---
 
-**Recrutement : timeline**
-
-Horizon 2021.
-
----
-
-**Recrutement : valeurs**
-
-* Indépendant.
-* Passionné.
-* Rigoureux.
-
-
----
-
-**Fin.**
-
-*Merci pour votre attention.*
-
-**Questions ?**
+**Q&A**
